@@ -3,9 +3,6 @@ title: "Learning Philosophy"
 type: reference
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 # Purpose
 
 This artifact defines how all educational content should be created.

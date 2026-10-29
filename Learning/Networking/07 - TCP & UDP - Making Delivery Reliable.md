@@ -6,9 +6,6 @@ lesson: 7
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[06 - Subnetting - Dividing Networks on Purpose]]  |  ↑ Parent: [[Networking]]  |  Next: [[08 - NAT - How One Address Serves a Whole House]] →
 

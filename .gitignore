@@ -1,5 +1,9 @@
 # to only exclude plugin configuration. Might be useful to prevent some plugin from exposing sensitive data
-.obsidian/plugins
+.obsidian/plugins/*
+# Exception: the Note Toolbar navbar config IS tracked, so the Atlas
+# Navbar toolbar syncs via Git. All other plugin folders stay ignored.
+!.obsidian/plugins/note-toolbar/
+!.obsidian/plugins/note-toolbar/data.json
 
 # OR only to exclude workspace cache
 .obsidian/workspace.json

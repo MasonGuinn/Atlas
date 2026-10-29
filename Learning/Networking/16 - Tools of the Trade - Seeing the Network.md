@@ -6,9 +6,6 @@ lesson: 16
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[15 - The Full Journey - What Happens When You Load a Website]]  |  ↑ Parent: [[Networking]]  |  Next: [[17 - Thinking Like an Attacker - Exploiting the Stack]] →
 

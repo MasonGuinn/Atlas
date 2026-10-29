@@ -6,9 +6,6 @@ lesson: 9
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[08 - NAT - How One Address Serves a Whole House]]  |  ↑ Parent: [[Networking]]  |  Next: [[10 - DNS, DHCP & the Web - Making It Human]] →
 

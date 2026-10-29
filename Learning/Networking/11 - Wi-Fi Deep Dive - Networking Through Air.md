@@ -6,9 +6,6 @@ lesson: 11
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[10 - DNS, DHCP & the Web - Making It Human]]  |  ↑ Parent: [[Networking]]  |  Next: [[12 - Routing Deep Dive - How the Internet Finds Its Way]] →
 

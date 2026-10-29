@@ -4,9 +4,6 @@ cssclasses:
   - cards-cols-3
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 # Level 03 - Program Execution
 

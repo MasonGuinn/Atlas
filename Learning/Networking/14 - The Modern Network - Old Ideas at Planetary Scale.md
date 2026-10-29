@@ -6,9 +6,6 @@ lesson: 14
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[13 - Firewalls, VPNs & the DMZ - Defending the Network]]  |  ↑ Parent: [[Networking]]  |  Next: [[15 - The Full Journey - What Happens When You Load a Website]] →
 

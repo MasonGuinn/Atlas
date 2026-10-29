@@ -1,0 +1,330 @@
+{
+  "debugEnabled": false,
+  "defaultToolbar": "b012fe6d-b385-470b-a565-d2df051537e0",
+  "editorMenuAsToolbar": false,
+  "editorMenuToolbar": null,
+  "emptyViewToolbar": null,
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [],
+  "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "lockCallouts": false,
+  "obsidianUiVisibility": {},
+  "onboarding": {},
+  "ribbon": [],
+  "rules": [],
+  "scriptingEnabled": false,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": false,
+    "bases": false,
+    "canvas": false,
+    "image": false,
+    "kanban": false,
+    "pdf": false,
+    "video": false
+  },
+  "showToolbarInFileMenu": false,
+  "showToolbarInOther": "",
+  "showWhatsNew": false,
+  "textToolbar": null,
+  "textToolbarOnKeyboard": true,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "b012fe6d-b385-470b-a565-d2df051537e0",
+      "name": "Atlas Navbar",
+      "commandPosition": "float",
+      "customClasses": "atlas-navbar",
+      "defaultItem": null,
+      "defaultStyles": [
+        "button",
+        "center",
+        "sticky",
+        "border"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "1a81b272-2ce4-4c10-a9fe-1f50206d3938",
+          "icon": "home",
+          "label": "Dashboard",
+          "tooltip": "Go to Dashboard",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Dashboard.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "350c59ea-49d7-45ce-a89f-b40bcf44aaab",
+          "icon": "book-open",
+          "label": "Learning",
+          "tooltip": "Go to Learning",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Learning/Learning.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "dd3be93a-7331-4f90-a5be-2d8584aff824",
+          "icon": "globe",
+          "label": "Networking",
+          "tooltip": "Go to Networking",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Learning/Networking/Networking.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "7d8a8b07-aa53-44da-ae7a-4afc6fe1fbb9",
+          "icon": "monitor",
+          "label": "Systems",
+          "tooltip": "Go to Systems",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Learning/Systems/Systems.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "604a4e8e-33c3-4b2b-bd1b-46eb3082935a",
+          "icon": "code",
+          "label": "Programming",
+          "tooltip": "Go to Programming",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Learning/Programming/Programming.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "98774fa5-da3c-4627-baee-878988a905e1",
+          "icon": "shield",
+          "label": "Cybersecurity",
+          "tooltip": "Go to Cybersecurity",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "Learning/Cybersecurity/Cybersecurity.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "52df340f-ad74-4856-add3-183884f5ce0f",
+          "icon": "graduation-cap",
+          "label": "School",
+          "tooltip": "Go to School",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "School.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "file"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "top"
+          }
+        }
+      },
+      "updated": "2026-10-29"
+    }
+  ],
+  "version": 20260812.1,
+  "webviewerToolbar": null,
+  "whatsnew_version": "0"
+}

@@ -6,6 +6,9 @@ Usage: Command Palette → Templater: Create new note from template, or assign a
 When you create a lesson, fill in: domain, level folder, lesson number, title.
 The new file goes in its Level/Domain folder, with this frontmatter and nav.
 When a next lesson is created, update the previous lesson's top and bottom nav to link forward to it.
+The global navbar is NOT in this file — it is the Note Toolbar plugin's
+"Atlas Navbar" toolbar, shown at the top of every note automatically.
+See the Atlas Navbar Setup note.
 */
 %>
 ---
@@ -15,9 +18,6 @@ type: lesson
 lesson: 0
 status: not-started
 ---
-
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
 
 ← Previous: [[ ]]  |  ↑ Parent: [[ ]]  |  Next: [[ ]] →
 

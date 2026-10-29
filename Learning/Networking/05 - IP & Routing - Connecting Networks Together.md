@@ -6,9 +6,6 @@ lesson: 5
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[04 - LANs - Many Machines, One Room]]  |  ↑ Parent: [[Networking]]  |  Next: [[06 - Subnetting - Dividing Networks on Purpose]] →
 

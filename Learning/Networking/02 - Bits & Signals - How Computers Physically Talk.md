@@ -6,9 +6,6 @@ lesson: 2
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[01 - Why Networks Exist]]  |  ↑ Parent: [[Networking]]  |  Next: [[03 - The First Conversation - Two Computers, One Wire]] →
 

@@ -3,9 +3,6 @@ title: "Computer Systems Curriculum"
 type: reference
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 # Computer Systems Curriculum
 
 ## Purpose

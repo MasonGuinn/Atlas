@@ -6,9 +6,6 @@ lesson: 8
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[07 - TCP & UDP - Making Delivery Reliable]]  |  ↑ Parent: [[Networking]]  |  Next: [[09 - IPv6 - The Fix That Took 30 Years]] →
 

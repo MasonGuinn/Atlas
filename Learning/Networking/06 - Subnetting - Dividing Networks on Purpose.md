@@ -6,9 +6,6 @@ lesson: 6
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[05 - IP & Routing - Connecting Networks Together]]  |  ↑ Parent: [[Networking]]  |  Next: [[07 - TCP & UDP - Making Delivery Reliable]] →
 

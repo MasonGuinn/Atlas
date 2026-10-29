@@ -6,9 +6,6 @@ lesson: 13
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: [[12 - Routing Deep Dive - How the Internet Finds Its Way]]  |  ↑ Parent: [[Networking]]  |  Next: [[14 - The Modern Network - Old Ideas at Planetary Scale]] →
 

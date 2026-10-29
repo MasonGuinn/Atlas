@@ -6,9 +6,6 @@ lesson: 0
 status: not-started
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 ← Previous: —  |  ↑ Parent: [[Networking]]  |  Next: [[01 - Why Networks Exist]] →
 

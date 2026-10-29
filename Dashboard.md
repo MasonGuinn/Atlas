@@ -6,9 +6,6 @@ cssclasses:
   - table-wide
 ---
 
-> [!navbar]
-> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
-
 
 # Atlas
 
@@ -16,11 +13,17 @@ Your learning home. Everything below updates itself — change a lesson's `statu
 
 ## Tracks
 
-- 🌐 **[[Learning/Networking|Networking]]** — 19 notes, 00–18, complete
-- 💻 **[[Learning/Systems|Systems]]** — 57 lessons, 8 levels, in progress
-- 🐍 **[[Learning/Programming|Programming]]** — C++ and Python
-- 🔒 **[[Learning/Cybersecurity|Cybersecurity]]** — Security+ and cybersecurity
-- 🎓 **[[School]]** — CSIA 320, CSIA 420, SOC 305
+No list here on purpose — a list is what kept rendering bullet dots. Each track below is a heading, styled as a card.
+
+### 🌐 [[Learning/Networking|Networking]] — 19 notes, 00–18, complete
+
+### 💻 [[Learning/Systems|Systems]] — 57 lessons, 8 levels, in progress
+
+### 🐍 [[Learning/Programming|Programming]] — C++ and Python
+
+### 🔒 [[Learning/Cybersecurity|Cybersecurity]] — Security+ and cybersecurity
+
+### 🎓 [[School]] — CSIA 320, CSIA 420, SOC 305
 
 ## Continue
 
