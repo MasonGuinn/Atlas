@@ -4,13 +4,6 @@
 
 ← Previous: — | ↑ Parent: [[Learning]] | Next: — →
 
-```dataview
-TABLE status, lesson
-FROM "Learning/Networking"
-WHERE type = "lesson"
-SORT lesson ASC
-```
-
 ## The series in order
 
 - [[00 - Fundamentals - The Reference Map]]

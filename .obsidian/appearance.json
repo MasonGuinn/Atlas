@@ -2,5 +2,8 @@
   "showViewHeader": true,
   "showRibbon": true,
   "cssTheme": "Minimal",
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "modern.css"
+  ]
 }

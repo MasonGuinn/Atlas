@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - cards
+  - cards-cols-3
+---
+
 # Level 07 - Security Foundations
 
 Lessons 50–56. Work in order. New lessons go in the folder `Level 07 - Security Foundations/`, not flat under Systems.
@@ -5,7 +11,9 @@ Lessons 50–56. Work in order. New lessons go in the folder `Level 07 - Securit
 ← Previous: — | ↑ Parent: [[Learning/Systems]] | Next: — →
 
 ```dataview
-TABLE status, lesson
+TABLE WITHOUT ID
+  file.link AS "Lesson",
+  choice(status = "done", "✓ Done", choice(status = "in-progress", "● In progress", "○ Not started")) AS "Status"
 FROM "Learning/Systems/Level 07 - Security Foundations"
 WHERE type = "lesson"
 SORT lesson ASC

@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - cards
+  - cards-cols-3
+---
+
 # Systems
 
 Computer Systems curriculum: 57 lessons, 8 levels, worked in order. Lessons are created on demand — say "Create lesson ___ for computer systems" and the lesson is created in its Level folder, with nav, using [[Lesson Template]] and [[Learning Philosophy]].
@@ -18,7 +24,9 @@ Computer Systems curriculum: 57 lessons, 8 levels, worked in order. Lessons are 
 ## All Systems lessons created so far
 
 ```dataview
-TABLE status, lesson
+TABLE WITHOUT ID
+  file.link AS "Lesson",
+  choice(status = "done", "✓ Done", choice(status = "in-progress", "● In progress", "○ Not started")) AS "Status"
 FROM "Learning/Systems"
 WHERE type = "lesson"
 SORT lesson ASC

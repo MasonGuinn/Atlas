@@ -1,0 +1,104 @@
+/* Atlas modern look — works with the Minimal theme, in light and dark mode.
+   Uses Obsidian's own CSS variables, so it follows the theme's colors.
+   Enable: Settings → Appearance → CSS snippets → modern.css
+   (also enabled via .obsidian/appearance.json in this repo) */
+
+/* --- Modern tables: Dataview and content tables, everywhere --- */
+.markdown-preview-view table,
+.markdown-rendered table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.92em;
+}
+.markdown-preview-view table thead th,
+.markdown-rendered table thead th {
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  font-size: 0.78em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+.markdown-preview-view table tbody td,
+.markdown-rendered table tbody td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--background-modifier-border-hover, var(--background-modifier-border));
+  vertical-align: top;
+}
+.markdown-preview-view table tbody tr:last-child td,
+.markdown-rendered table tbody tr:last-child td {
+  border-bottom: none;
+}
+.markdown-preview-view table tbody tr:hover,
+.markdown-rendered table tbody tr:hover {
+  background: var(--background-secondary);
+}
+.markdown-preview-view table tbody td a,
+.markdown-rendered table tbody td a {
+  font-weight: 600;
+}
+
+/* Dataview lists: clean, no bulky bullets */
+.markdown-preview-view ul.dataview.list-view-ul,
+.markdown-rendered ul.dataview.list-view-ul {
+  padding-left: 0;
+  list-style: none;
+}
+.markdown-preview-view ul.dataview.list-view-ul li,
+.markdown-rendered ul.dataview.list-view-ul li {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: var(--background-secondary);
+  border-radius: 10px;
+}
+
+/* --- Dashboard page only (frontmatter cssclasses: dashboard) --- */
+.markdown-preview-view.dashboard h1 {
+  font-size: 2.4em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.2em;
+}
+.markdown-preview-view.dashboard h2 {
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-top: 2em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+/* Track list on the Dashboard becomes a card grid */
+.markdown-preview-view.dashboard ul:not(.dataview) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  list-style: none;
+  padding-left: 0;
+}
+.markdown-preview-view.dashboard ul:not(.dataview) li {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.markdown-preview-view.dashboard ul:not(.dataview) li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.markdown-preview-view.dashboard ul:not(.dataview) li a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* --- Callouts: softer, website-like --- */
+.markdown-preview-view .callout,
+.markdown-rendered .callout {
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}

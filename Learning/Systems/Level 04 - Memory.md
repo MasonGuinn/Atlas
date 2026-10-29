@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - cards
+  - cards-cols-3
+---
+
 # Level 04 - Memory
 
 Lessons 24–33. Work in order. New lessons go in the folder `Level 04 - Memory/`, not flat under Systems.
@@ -5,7 +11,9 @@ Lessons 24–33. Work in order. New lessons go in the folder `Level 04 - Memory/
 ← Previous: — | ↑ Parent: [[Learning/Systems]] | Next: — →
 
 ```dataview
-TABLE status, lesson
+TABLE WITHOUT ID
+  file.link AS "Lesson",
+  choice(status = "done", "✓ Done", choice(status = "in-progress", "● In progress", "○ Not started")) AS "Status"
 FROM "Learning/Systems/Level 04 - Memory"
 WHERE type = "lesson"
 SORT lesson ASC

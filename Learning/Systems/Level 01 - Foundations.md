@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - cards
+  - cards-cols-3
+---
+
 # Level 01 - Foundations
 
 Lessons 01–06. Work in order. New lessons go in the folder `Level 01 - Foundations/`, not flat under Systems.
@@ -5,7 +11,9 @@ Lessons 01–06. Work in order. New lessons go in the folder `Level 01 - Foundat
 ← Previous: — | ↑ Parent: [[Learning/Systems]] | Next: — →
 
 ```dataview
-TABLE status, lesson
+TABLE WITHOUT ID
+  file.link AS "Lesson",
+  choice(status = "done", "✓ Done", choice(status = "in-progress", "● In progress", "○ Not started")) AS "Status"
 FROM "Learning/Systems/Level 01 - Foundations"
 WHERE type = "lesson"
 SORT lesson ASC

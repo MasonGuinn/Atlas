@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - cards
+  - cards-cols-3
+---
+
 # Level 02 - Hardware Foundations
 
 Lessons 07–15. Work in order. New lessons go in the folder `Level 02 - Hardware Foundations/`, not flat under Systems.
@@ -5,7 +11,9 @@ Lessons 07–15. Work in order. New lessons go in the folder `Level 02 - Hardwar
 ← Previous: — | ↑ Parent: [[Learning/Systems]] | Next: — →
 
 ```dataview
-TABLE status, lesson
+TABLE WITHOUT ID
+  file.link AS "Lesson",
+  choice(status = "done", "✓ Done", choice(status = "in-progress", "● In progress", "○ Not started")) AS "Status"
 FROM "Learning/Systems/Level 02 - Hardware Foundations"
 WHERE type = "lesson"
 SORT lesson ASC
