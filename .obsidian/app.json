@@ -1,0 +1,10 @@
+{
+  "defaultViewMode": "preview",
+  "showInlineTitle": true,
+  "openBehavior": "",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "trashOption": "system"
+}

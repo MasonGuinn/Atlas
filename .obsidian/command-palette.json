@@ -1,0 +1,13 @@
+{
+  "pinned": [
+    "file-explorer:new-file",
+    "app:open-settings",
+    "markdown:add-metadata-property",
+    "markdown:add-alias",
+    "app:show-debug-info",
+    "open-with-default-app:show",
+    "editor:fold-all",
+    "editor:unfold-all",
+    "editor:toggle-fold-properties"
+  ]
+}
