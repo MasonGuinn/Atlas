@@ -4,6 +4,10 @@ cssclasses:
   - cards-cols-3
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 # Level 07 - Security Foundations
 
 Lessons 50–56. Work in order. New lessons go in the folder `Level 07 - Security Foundations/`, not flat under Systems.

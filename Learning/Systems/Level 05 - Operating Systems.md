@@ -4,6 +4,10 @@ cssclasses:
   - cards-cols-3
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 # Level 05 - Operating Systems
 
 Lessons 34–42. Work in order. New lessons go in the folder `Level 05 - Operating Systems/`, not flat under Systems.

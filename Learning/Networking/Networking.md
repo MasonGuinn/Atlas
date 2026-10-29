@@ -1,3 +1,6 @@
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
 # Networking
 
 19 notes, 00–18. Migrated from Notion on 2026-10-28. Content, tables, and cross-links were converted to Obsidian wikilinks; the Notion nav bars were replaced with Obsidian nav bars (top and bottom of each note).

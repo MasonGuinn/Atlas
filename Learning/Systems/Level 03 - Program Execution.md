@@ -4,6 +4,10 @@ cssclasses:
   - cards-cols-3
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 # Level 03 - Program Execution
 
 Lessons 16–23. Work in order. New lessons go in the folder `Level 03 - Program Execution/`, not flat under Systems.

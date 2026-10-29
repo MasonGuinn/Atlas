@@ -4,6 +4,10 @@ cssclasses:
   - cards-cols-3
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 # Systems
 
 Computer Systems curriculum: 57 lessons, 8 levels, worked in order. Lessons are created on demand — say "Create lesson ___ for computer systems" and the lesson is created in its Level folder, with nav, using [[Lesson Template]] and [[Learning Philosophy]].

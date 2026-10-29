@@ -102,3 +102,91 @@
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
+
+/* --- Global navbar: a [!navbar] callout at the top of every note --- */
+.markdown-preview-view .callout[data-callout="navbar"],
+.markdown-rendered .callout[data-callout="navbar"] {
+  --callout-color: var(--interactive-accent);
+  --callout-icon: none;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  padding: 10px 18px;
+  margin: 0 0 20px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.markdown-preview-view .callout[data-callout="navbar"] .callout-title,
+.markdown-rendered .callout[data-callout="navbar"] .callout-title {
+  display: none;
+}
+.markdown-preview-view .callout[data-callout="navbar"] .callout-content,
+.markdown-rendered .callout[data-callout="navbar"] .callout-content {
+  padding: 0;
+}
+.markdown-preview-view .callout[data-callout="navbar"] .callout-content p,
+.markdown-rendered .callout[data-callout="navbar"] .callout-content p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.92em;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.markdown-preview-view .callout[data-callout="navbar"] a,
+.markdown-rendered .callout[data-callout="navbar"] a {
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.markdown-preview-view .callout[data-callout="navbar"] a:hover,
+.markdown-rendered .callout[data-callout="navbar"] a:hover {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  text-decoration: none;
+}
+
+/* --- Minimal cards: no horizontal lines inside cards, real card look --- */
+.markdown-preview-view.cards table,
+.markdown-rendered.cards table {
+  border: none;
+  box-shadow: none;
+}
+.markdown-preview-view.cards table tbody td,
+.markdown-rendered.cards table tbody td {
+  border-bottom: none;
+  padding: 6px 0;
+}
+.markdown-preview-view.cards table tbody tr:hover,
+.markdown-rendered.cards table tbody tr:hover {
+  background: transparent;
+}
+
+/* --- Dashboard: hide the Properties box and duplicate inline title,
+       so the page starts with the Atlas hero like a website --- */
+.markdown-preview-view.dashboard .metadata-container,
+.markdown-rendered.dashboard .metadata-container {
+  display: none;
+}
+.markdown-preview-view.dashboard .inline-title,
+.markdown-rendered.dashboard .inline-title {
+  display: none;
+}
+/* Track cards: kill the bullet dot that was still showing */
+.markdown-preview-view.dashboard ul:not(.dataview) li,
+.markdown-rendered.dashboard ul:not(.dataview) li {
+  list-style: none;
+}
+.markdown-preview-view.dashboard ul:not(.dataview) li::marker,
+.markdown-rendered.dashboard ul:not(.dataview) li::marker {
+  content: none;
+}
+
+/* --- Modern accent: indigo, works in dark and light mode --- */
+:root {
+  --interactive-accent: #6366f1;
+  --interactive-accent-hover: #818cf8;
+  --text-accent: #818cf8;
+}

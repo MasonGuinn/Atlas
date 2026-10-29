@@ -4,6 +4,10 @@ cssclasses:
   - cards-cols-3
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 # Level 04 - Memory
 
 Lessons 24–33. Work in order. New lessons go in the folder `Level 04 - Memory/`, not flat under Systems.

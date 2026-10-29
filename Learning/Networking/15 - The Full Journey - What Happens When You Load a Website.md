@@ -6,6 +6,10 @@ lesson: 15
 status: not-started
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[14 - The Modern Network - Old Ideas at Planetary Scale]]  |  ↑ Parent: [[Networking]]  |  Next: [[16 - Tools of the Trade - Seeing the Network]] →
 
 ---

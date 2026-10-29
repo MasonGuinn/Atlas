@@ -6,6 +6,10 @@ lesson: 18
 status: not-started
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[17 - Thinking Like an Attacker - Exploiting the Stack]]  |  ↑ Parent: [[Networking]]  |  Next: — →
 
 ---

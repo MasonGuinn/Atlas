@@ -6,17 +6,21 @@ cssclasses:
   - table-wide
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 # Atlas
 
 Your learning home. Everything below updates itself — change a lesson's `status` in its frontmatter, and this page, the track indexes, and the progress cards update with it.
 
 ## Tracks
 
-- **[[Learning/Networking|Networking]]** — 19 notes, 00–18, complete
-- **[[Learning/Systems|Systems]]** — 57 lessons, 8 levels, in progress
-- **[[Learning/Programming|Programming]]** — C++ and Python
-- **[[Learning/Cybersecurity|Cybersecurity]]** — Security+ and cybersecurity
-- **[[School]]** — CSIA 320, CSIA 420, SOC 305
+- 🌐 **[[Learning/Networking|Networking]]** — 19 notes, 00–18, complete
+- 💻 **[[Learning/Systems|Systems]]** — 57 lessons, 8 levels, in progress
+- 🐍 **[[Learning/Programming|Programming]]** — C++ and Python
+- 🔒 **[[Learning/Cybersecurity|Cybersecurity]]** — Security+ and cybersecurity
+- 🎓 **[[School]]** — CSIA 320, CSIA 420, SOC 305
 
 ## Continue
 
@@ -26,7 +30,7 @@ Last-edited lessons, newest first. This is your resume point.
 TABLE WITHOUT ID
   file.link AS "Lesson",
   choice(status = "done", "✓ Done", choice(status = "in-progress", "● In progress", "○ Not started")) AS "Status",
-  domain AS "Track"
+  dateformat(file.mtime, "MMM d") AS "Edited"
 FROM "Learning"
 WHERE type = "lesson"
 SORT file.mtime DESC
@@ -35,13 +39,12 @@ LIMIT 9
 
 ## Next up
 
-The next not-started lesson in each track, in order.
+The next not-started lesson in each track, in order. The lesson number is already in the title, so no separate number column.
 
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Lesson",
-  domain AS "Track",
-  lesson AS "No."
+  domain AS "Track"
 FROM "Learning"
 WHERE type = "lesson" AND status = "not-started"
 SORT domain ASC, lesson ASC
@@ -63,8 +66,7 @@ SORT domain ASC, lesson ASC
 ```dataview
 TABLE WITHOUT ID
   domain AS "Track",
-  length(filter(rows, (r) => r.status = "done")) AS "Done",
-  length(rows) AS "Total"
+  string(length(filter(rows, (r) => r.status = "done"))) + " / " + string(length(rows)) + " done" AS "Progress"
 FROM "Learning"
 WHERE type = "lesson"
 GROUP BY domain

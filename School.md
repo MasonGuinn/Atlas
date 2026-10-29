@@ -1,3 +1,6 @@
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
 # School
 
 Columbia Basin College, BAS Cybersecurity, Fall 2026 (quarter Sep 21–Dec 10, 2026).

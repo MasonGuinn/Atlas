@@ -6,6 +6,10 @@ lesson: 12
 status: not-started
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[11 - Wi-Fi Deep Dive - Networking Through Air]]  |  ↑ Parent: [[Networking]]  |  Next: [[13 - Firewalls, VPNs & the DMZ - Defending the Network]] →
 
 ---

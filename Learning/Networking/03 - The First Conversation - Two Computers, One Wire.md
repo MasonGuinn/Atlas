@@ -6,6 +6,10 @@ lesson: 3
 status: not-started
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[02 - Bits & Signals - How Computers Physically Talk]]  |  ↑ Parent: [[Networking]]  |  Next: [[04 - LANs - Many Machines, One Room]] →
 
 ---

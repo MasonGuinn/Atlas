@@ -6,6 +6,10 @@ lesson: 4
 status: not-started
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[03 - The First Conversation - Two Computers, One Wire]]  |  ↑ Parent: [[Networking]]  |  Next: [[05 - IP & Routing - Connecting Networks Together]] →
 
 ---

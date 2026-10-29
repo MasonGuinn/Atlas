@@ -6,6 +6,10 @@ lesson: 1
 status: in-progress
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[00 - Fundamentals - The Reference Map]]  |  ↑ Parent: [[Networking]]  |  Next: [[02 - Bits & Signals - How Computers Physically Talk]] →
 
 ---

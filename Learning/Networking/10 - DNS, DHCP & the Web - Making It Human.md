@@ -6,6 +6,10 @@ lesson: 10
 status: not-started
 ---
 
+> [!navbar]
+> 🏠 [[Dashboard]] · 📚 [[Learning]] · 🌐 [[Networking]] · 💻 [[Systems]] · 🐍 [[Programming]] · 🔒 [[Cybersecurity]] · 🎓 [[School]]
+
+
 ← Previous: [[09 - IPv6 - The Fix That Took 30 Years]]  |  ↑ Parent: [[Networking]]  |  Next: [[11 - Wi-Fi Deep Dive - Networking Through Air]] →
 
 ---
